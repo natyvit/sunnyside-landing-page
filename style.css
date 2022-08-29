@@ -23,6 +23,10 @@ p {
   margin: 0rem;
 }
 
+a{
+  text-decoration: none;
+}
+
 h1 {
   text-transform: uppercase;
   font-size: 1.875rem;
@@ -116,6 +120,17 @@ ul {
   grid-template-columns: 1fr;
 }
 
+.secao-fotos{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+}
+
+.item{
+  width: 187.5px;
+  margin: 0px;
+}
+
 .margin {
   margin-top: 19vh;
 }
@@ -129,10 +144,57 @@ ul {
   text-align: center;
 }
 
+.logo-footer{
+  fill: var(--dark-desaturated-cyan);
+}
+
+.conteudo-footer{
+  background-color: var(--dark-moderate-cyan);
+  padding: 3.75rem 40px;
+  text-align: center;
+}
+
+.menu-footer{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: -50px;
+}
+
+.menu-footer a{
+  font-family: "Barlow", Arial, Helvetica, sans-serif;
+  font-size: 1.125rem;
+  color: var(--dark-desaturated-cyan);
+}
+
+.icones-footer{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+.gap-secao{
+  gap: 2.5rem;
+}
+
+.padding-secao{
+  padding: 0px 25px;
+}
+
 .titulo-secao {
   font-family: "Fraunces", Arial, Helvetica, sans-serif;
   font-size: 5vh;
   color: var(--very-dark-desaturated-blue);
+}
+
+.titulo-clients{
+  font-family: "Fraunces", Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: var(--grayish-blue);
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: .25rem;
 }
 
 .texto-secao {
@@ -143,6 +205,26 @@ ul {
 
 .img-secao {
   width: 100%;
+}
+
+.img-client{
+  border-radius: 50%;
+  width: 4.6875rem;
+  align-self: center;
+  margin-top: 1.25rem;
+}
+
+.nome-client{
+  font-family: "Fraunces", Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  color: var(--very-dark-desaturated-blue);
+  font-size: 1.25rem;
+}
+
+.cargo-client{
+  font-family: "Barlow", Arial, Helvetica, sans-serif;
+  color: var(--grayish-blue);
+  margin-top: -30px;
 }
 
 .link-secao::before {
@@ -158,7 +240,6 @@ ul {
 }
 
 .link-secao {
-  text-decoration: none;
   position: relative;
   font-family: "Fraunces", Arial, Helvetica, sans-serif;
   color: var(--very-dark-desaturated-blue);
@@ -179,7 +260,7 @@ ul {
 }
 
 .top-img{
-  top: 425vh;
+  top: 433vh;
 }
 
 @media (max-width: 23.5rem) {
@@ -199,7 +280,6 @@ ul {
   }
 
   .header-menu a {
-    text-decoration: none;
     color: var(--white);
     font-family: "Barlow", Arial, Helvetica, sans-serif;
   }
