@@ -102,7 +102,7 @@ body {
 }
 
 .item {
-  width: 187.5px;
+  width: 50%;
   margin: 0px;
 }
 
@@ -328,6 +328,7 @@ body {
 
   .secao-clients {
     display: flex;
+    margin-bottom: 300px;
   }
 
   .conteudo-secao {
@@ -412,5 +413,9 @@ body {
   .coluna1-desktop {
     grid-column: 1;
     grid-row: 1;
+  }
+
+  .item{
+    width: 25%;
   }
 }
