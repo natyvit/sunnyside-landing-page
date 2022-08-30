@@ -327,13 +327,17 @@ body {
   }
 
   .conteudo-secao {
-    padding: 145px 180px;
+    padding: 500px 600px;
     text-align: left;
     gap: 200px;
   }
 
+  .titulo-secao{
+    font-size: 200px;
+  }
+
   .texto-secao {
-    font-size: 63px;
+    font-size: 72px;
   }
 
   .link-secao {
@@ -345,14 +349,7 @@ body {
     padding: 70px 110px;
     gap: 100px;
     text-align: center;
-  }
-
-  .titulo-secao-desktop{
-    font-size: 100px;
-  }
-
-  .top-img-desktop {
-    top: 10000px;
+    margin-left: 650px;
   }
 
   .link-secao::before {
