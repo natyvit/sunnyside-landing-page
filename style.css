@@ -239,7 +239,7 @@ body {
 
 .conteudo-absolute {
   position: absolute;
-  top:  2220px;
+  top: 2220px;
   padding: 2.5rem 1.5625rem;
   background-color: transparent;
   justify-content: center;
@@ -296,7 +296,7 @@ body {
     font-family: "Fraunces", Arial, Helvetica, sans-serif;
   }
 
-  .titulo-header{
+  .titulo-header {
     margin-top: -310px;
   }
 
@@ -313,17 +313,21 @@ body {
     justify-content: space-between;
   }
 
-  .arrow{
+  .arrow {
     width: 150px;
     margin-top: 700px;
   }
 
-  .conteudo-absolute{
+  .conteudo-absolute {
     top: 10000px;
   }
 
   .secao {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .secao-clients {
+    display: flex;
   }
 
   .conteudo-secao {
@@ -332,7 +336,30 @@ body {
     gap: 200px;
   }
 
-  .titulo-secao{
+  .conteudo-secao2 {
+    padding: 400px;
+    text-align: center;
+  }
+
+  .titulo-clients {
+    font-size: 70px;
+    margin-top: 600px;
+  }
+
+  .img-client {
+    width: 270px;
+  }
+
+  .nome-client {
+    font-size: 70px;
+  }
+
+  .cargo-client{
+    font-size: 50px;
+    margin-top: -170px;
+  }
+
+  .titulo-secao {
     font-size: 200px;
   }
 
@@ -366,7 +393,7 @@ body {
   .img-mobile {
     display: none;
   }
-  .burge-header{
+  .burge-header {
     display: none;
   }
 
