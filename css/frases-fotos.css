@@ -58,6 +58,22 @@
   justify-content: center;
 }
 
+.titulo-secao2-green{
+  color: var(--dark-desaturated-cyan);
+}
+
+.texto-secao2-green{
+  color: var(--dark-desaturated-cyan);
+}
+
+.titulo-secao2-blue{
+  color: var(--dark-blue);
+}
+
+.texto-secao2-blue{
+  color: var(--dark-blue);
+}
+
 .top-img {
   top: 177rem;
 }
@@ -98,7 +114,7 @@
   .coluna2-desktop {
     grid-column: 2;
   }
-  
+
   .coluna1-desktop {
     grid-column: 1;
     grid-row: 1;
