@@ -13,7 +13,10 @@ body {
   --grayish-blue: hsl(210, 4%, 67%);
   --white: hsl(0, 0%, 100%);
 
-  margin: 0rem;
+}
+
+html{
+  scroll-behavior: smooth;
 }
 
 
