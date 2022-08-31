@@ -1,0 +1,75 @@
+.titulo-clients {
+  font-family: "Fraunces", Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: var(--grayish-blue);
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.25rem;
+  margin-top: 60px;
+}
+
+.conteudo-secao2 {
+  padding: 60px 20px;
+  gap: 60px;
+  text-align: center;
+}
+
+.img-client {
+  border-radius: 50%;
+  width: 4.6875rem;
+  align-self: center;
+  margin-top: 1.25rem;
+}
+
+.nome-client {
+  font-family: "Fraunces", Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  color: var(--very-dark-desaturated-blue);
+  font-size: 1.25rem;
+}
+
+.cargo-client {
+  font-family: "Barlow", Arial, Helvetica, sans-serif;
+  color: var(--grayish-blue);
+  margin-top: -30px;
+}
+
+@media (max-width: 376px){
+  .gap-secao-mobile {
+    gap: 2.5rem;
+  }
+
+  .padding-secao {
+    padding: 0px 25px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .secao-clients {
+    display: flex;
+    margin-bottom: 80px;
+    padding: 0 180px;
+  }
+
+  .titulo-clients {
+    font-size: 20px;
+    margin-top: 120px;
+  }
+
+  .img-client {
+    width: 70px;
+  }
+
+  .nome-client {
+    font-size: 18px;
+  }
+
+  .cargo-client {
+    font-size: 18px;
+    margin-top: -60px;
+  }
+
+  .conteudo-secao2 {
+    width: 33%;
+  }
+}

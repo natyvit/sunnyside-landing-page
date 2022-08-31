@@ -1,0 +1,140 @@
+.header {
+  margin: 0 auto;
+  align-items: center;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+
+.img-header-desktop {
+  margin: 0rem;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.img-header-mobile {
+  margin: 0rem;
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.burge-header {
+  top: 0rem;
+  padding: 1.25rem;
+  right: 0rem;
+  height: fit-content;
+  margin-top: 0.25rem;
+}
+
+.logo-header {
+  width: 35%;
+  padding: 1.25rem;
+}
+
+.titulo-header {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.titulo-header h1 {
+  font-family: "Fraunces", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 900;
+  color: var(--white);
+  letter-spacing: 0.5rem;
+  position: relative;
+  top: -30px;
+}
+
+.nav {
+  top: 0rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-menu li {
+  height: fit-content;
+  align-items: center;
+}
+
+@media (max-width: 376px){
+  .header-menu {
+    display: none;
+  }
+  .img-header-desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 1440px){
+  .header-menu {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    padding: 20px;
+    gap: 30px;
+  }
+
+  .header-menu li:last-child {
+    background-color: var(--white);
+    border-radius: 90px;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .header-menu li:last-child a {
+    color: var(--very-dark-desaturated-blue);
+    text-transform: uppercase;
+    font-family: "Fraunces", Arial, Helvetica, sans-serif;
+  }
+
+  .header-menu li:last-child:hover{
+    background-color: #6fcfff;
+  }
+
+  .header-menu a {
+    color: var(--white);
+    font-family: "Barlow", Arial, Helvetica, sans-serif;
+  }
+
+  .header-menu li:last-child:hover > a{
+    color: var(--white);
+  }
+  
+  .logo-header {
+    width: 15%;
+    padding: 20px;
+  }
+
+  .titulo-header {
+    margin-top: -310px;
+  }
+
+  .titulo-header h1 {
+    font-size: 50px;
+    top: 240px;
+    letter-spacing: 20px;
+  }
+
+  .nav {
+    top: 0rem;
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+  }
+
+  .burge-header {
+    display: none;
+  }
+
+  .img-header-mobile {
+    display: none;
+  }
+}
